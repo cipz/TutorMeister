@@ -5,10 +5,10 @@ session_start();
 header('Content-type: text/html; charset=utf-8');
 define('redirect', true);
 
-$servername = "localhost";
-$username = "gisanti";
-$password = "eith0Nainiejeing";
-$dbname = "gisanti";
+$servername = "servername";
+$username = "username";
+$password = "password";
+$dbname = "dbname";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
